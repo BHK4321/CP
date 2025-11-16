@@ -1,0 +1,36 @@
+{
+    "time": 4,
+    "space": 512,
+    "description": "Time limit in seconds and memory limit in MB",
+    "constraints": {
+        "t": {
+            "min": 1,
+            "max": 100000,
+            "description": "Number of test cases"
+        },
+        "n": {
+            "min": 1,
+            "max": 400000,
+            "description": "Number of warriors per test case"
+        },
+        "w": {
+            "min": 1,
+            "max": "n",
+            "description": "Warrior strength values"
+        },
+        "p": {
+            "min": 1,
+            "max": "n",
+            "description": "Permutation values"
+        },
+        "total_n": {
+            "max": 400000,
+            "description": "Sum of n over all test cases"
+        }
+    },
+    "expected_complexity": {
+        "time": "O(n) per test case",
+        "space": "O(n)"
+    },
+    "problem_type": "Game Theory, Trees, Graph Theory"
+}
